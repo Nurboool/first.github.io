@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal - youtube.com/@codingnepal -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+
+  <body>
+    
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">☕ Coffee</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Домой</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Меню</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Рекомендации</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Галерея</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Контакт</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title"></h2>
+            <h3 class="subtitle">Сделайте свой день незабываемым с нашим фирменным кофе!</h3>
+            <p class="description">Добро пожаловать в наш кофейный рай, где каждое зернышко рассказывает свою историю, а каждая чашка приносит радость.</p>
+
+            <div class="buttons">
+             
+              <a href="history.html" class="button contact-us" target="_blank">Информация о кофе</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="https://avatars.mds.yandex.net/i?id=0533c451480b06ced9f9b73905a3033819210850-12538603-images-thumbs&n=13" style="border-radius: 10px;" alt="Coffee" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="https://avatars.mds.yandex.net/i?id=63162162eb9efc46ea941c9ab0ad55596d39e699-8312878-images-thumbs&n=13" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">о нас</h2>
+            <p class="text">Кофейня Coffee House в Берндорфе, Германия, гордится тем, что является популярным местом как для любителей кофе, так и для тех, кто ищет общения. Мы стремимся предложить исключительный опыт приготовления кофе в уютной и располагающей атмосфере, где гости могут расслабиться и приятно провести время.</p>
+            <div class="social-link-list">
+              <a href="https://ru-ru.facebook.com/" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/login" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Наше меню</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              
+              <img src="https://avatars.mds.yandex.net/i?id=5b62d8240a12282c11df1f3b1374c06dd8a80c2b-9706559-images-thumbs&n=13"  alt="Hot Beverages"  class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Hot Beverages</h3>
+                <p class="text">Широкий ассортимент горячего кофе, от которого исходит пар, придаст вам свежести и легкости.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="https://avatars.mds.yandex.net/i?id=b145a5f4ef5f3785bcf0ac8787af8b7609cd9da0-10558413-images-thumbs&n=13" alt="Cold Beverages" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Cold Beverages</h3>
+                <p class="text">Холодный кофе со сливками и пенкой придаст вам бодрости.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="https://avatars.mds.yandex.net/i?id=45a6bed1c9118dfea27623ff4b4f66d4b4b23fe6341cc5fd-7055757-images-thumbs&n=13" alt="Refreshment" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Refreshment</h3>
+                <p class="text">Освежающий напиток с фруктами и льдом придаст ощущение свежести.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="https://avatars.mds.yandex.net/i?id=0b00441667779690e09e50e77951b742ce803d74-4008581-images-thumbs&n=13" alt="Special Combos" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Special Combos</h3>
+                <p class="text">Ваши любимые приемы пищи и питья.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="https://avatars.mds.yandex.net/i?id=2a00000179fdea64fecede209a813fa883de-4405789-images-thumbs&n=13" alt="Dessert" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Dessert</h3>
+                <p class="text">Мы удовлетворим ваш вкус и доставим вам кулинарное удовольствие.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="https://avatars.mds.yandex.net/i?id=783663732eb1b532da2c76a4d9a0c57289ff1dc2-3580567-images-thumbs&n=13" alt="burger & French Fries" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Burger & French Fries</h3>
+                <p class="text">Быстрые перекусы утолят ваш маленький голод.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Рекомендации</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="https://avatars.mds.yandex.net/i?id=ccbee9f284ef26527c15a6cc67851b2aecd8ccba-12011805-images-thumbs&n=13" alt="User" class="user-image" />
+                  <h3 class="name">Сара Джонсон</h3>
+                  <i class="feedback">"Очень понравилось жаркое по-французски. Идеально сбалансированное и сытное. Обязательно закажу еще раз!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="https://avatars.mds.yandex.net/i?id=5bd2f6b8f9c776e276060c2167eb501fcf916848-4615722-images-thumbs&n=13" alt="User" class="user-image" />
+                  <h3 class="name">Джеймс Уилсон</h3>
+                  <i class="feedback">"Отличная смесь для приготовления эспрессо! Нежный и насыщенный вкус. Быстрая доставка!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="https://avatars.mds.yandex.net/i?id=54ee7da21d625ea3db12ce51e53c0a5c2de8e808-10641531-images-thumbs&n=13" alt="User" class="user-image" />
+                  <h3 class="name">Майкл Браун</h3>
+
+                  <i class="feedback">"Фантастический вкус мокко. Свежий и ароматный. Быстрая доставка!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="https://avatars.mds.yandex.net/i?id=e2f81a36c19a5f198c9030470179a6f688256f98-10121887-images-thumbs&n=13" alt="User" class="user-image" />
+                  <h3 class="name">Эмили Харрис</h3>
+
+                  <i class="feedback">"Отличное качество! Свежая фасоль и быстрая доставка. Настоятельно рекомендую".</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="https://avatars.mds.yandex.net/i?id=87776528909639087a628dc5e752f70d87204ccc397d804c-4346197-images-thumbs&n=13" alt="User" class="user-image" />
+                  <h3 class="name">Энтони Томпсон</h3>
+
+                  <i class="feedback">"Лучший кофе без кофеина, который я пробовал! Нежный и ароматный. Доставили быстро".</i>
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Галерея</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="https://avatars.mds.yandex.net/i?id=d92a2dbeba7238817f5901134441b46bd61f00f4-10299502-images-thumbs&n=13" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="https://avatars.mds.yandex.net/i?id=2d8cde8d6edab7e4623905c3e2c9fc8f0a67a4fa-9850413-images-thumbs&n=13" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="https://avatars.mds.yandex.net/i?id=16e09fa408f151d7e2a3f0747c61126e7482e8ee-9151245-images-thumbs&n=13" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="https://avatars.mds.yandex.net/i?id=31b8b3cd878812a39fdca94398c8c449700341d0-9198383-images-thumbs&n=13" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="https://avatars.mds.yandex.net/i?id=4525b98ce062ce7c644142c12f95b2678ddff5c5-12471588-images-thumbs&n=13" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="https://avatars.mds.yandex.net/i?id=9d74734ae70d1de9d887e1337301340be30e8d0f-8873941-images-thumbs&n=13" alt="Gallery Image" class="gallery-image" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+     
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">связаться с нами</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p> Казахстан, Алматы</p>
+            </li>
+            
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p> + 771 123 12 34</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Понедельник - пятница: 9:00  - 17:00 </p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Суббота: 10:00  - 15:00 </p>
+            </li>
+            
+            
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Your name" class="form-input" required />
+            <input type="email" placeholder="Your email" class="form-input" required />
+            <textarea placeholder="Your message" class="form-input" required></textarea>
+            <button type="submit" class="button submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2024 Кофейня</p>
+
+          <div class="social-link-list">
+            <a href="https://www.facebook.com/" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/i/flow/login" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+
+          <p class="policy-text">
+            <a href="#" class="policy-link">Shaidilda</a>
+            <span class="separator"></span>
+            <a href="#" class="policy-link">Nurbolat</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+      
+    </script>
+
+    <!-- Linking custom script -->
+    <script src="script.js"></script>
+  </body>
+</html>
